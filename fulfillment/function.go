@@ -104,7 +104,7 @@ func sortMapByValue(m map[string][]float64) PairList {
 
 // init 初始化權限
 func init() {
-	bot, err = linebot.New("57cc60c3fc1530cc32ba896e1c4b7856", "GiKIwKk+Lwku0WeGEGnlEDBDDGC67tQVCSIMbcQaKpA2IyZPU6OgVSIdI0h1HUUG2Ky/psNLEEkjfnEZGITnJolxlEScGgLoWT/iKpwyinf/IJDgeB5gnIB0zmuag0vYlcs7WgOYdUg0CwbGXlWKIwdB04t89/1O/w1cDnyilFU=")
+	bot, err = linebot.New("","")
 	dialogflowProc.init(projectID, "parkingproject-261207-2933e4112308.json", "zh-TW", "Asia/Hong_Kong")
 	datastoreProc.init(projectID)
 
