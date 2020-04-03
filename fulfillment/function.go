@@ -105,7 +105,7 @@ func sortMapByValue(m map[string][]float64) PairList {
 // init 初始化權限
 func init() {
 	bot, err = linebot.New("","")
-	dialogflowProc.init(projectID, "parkingproject-261207-2933e4112308.json", "zh-TW", "Asia/Hong_Kong")
+	dialogflowProc.init(projectID, ".json", "zh-TW", "Asia/Hong_Kong")
 	datastoreProc.init(projectID)
 
 }
