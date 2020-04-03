@@ -1,0 +1,17 @@
+indexes:
+  - kind: NTPCParkings
+    ancestor: no
+    properties:
+      - name: ID
+      - name: Name
+      - name: Day
+      - name: Hour
+      - name: Pay
+      - name: PayCash
+      - name: Memo
+      - name: RoadID
+      - name: CellStatus
+      - name: IsNowCash
+      - name: ParkingStatus
+      - name: Lat
+      - name: Lon
